@@ -1,0 +1,11 @@
+{
+    "functions": {
+      "fetch-data": {
+        "handler": "vercel_function.main"
+      }
+    },
+    "routes": [
+      { "src": "/api/fetch-data", "dest": ".vercel/functions/fetch-data" }
+    ]
+  }
+  
